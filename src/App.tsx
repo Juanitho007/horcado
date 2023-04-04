@@ -49,6 +49,10 @@ function App() {
 
   return (
     <div className="App ">
+      <h1 className=" text-sky-400 font-extrabold text-4xl p-2">EL AHORCADO</h1>
+      <h2 className=" text-sky-400 font-extrabold text-xl p-2">
+        SOBREVIVEN LOS INTELIGENTES
+      </h2>
       <HangImage imageNumber={attempts} />
       <h3 className=" text-sky-400 font-extrabold text-2xl p-2">
         {hiddenWord}
